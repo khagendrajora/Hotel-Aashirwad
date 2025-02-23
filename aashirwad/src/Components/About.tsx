@@ -1,14 +1,14 @@
 export const About = () => {
   return (
     <>
-      <div className="bg-[rgb(244,246,246)] py-16">
+      <div className="bg-[#ecf3f3] py-16">
         <div className="flex mx-auto text-center md:w-1/2 lg:w-1/3 w-11/12">
           <div className="flex flex-col gap-10">
             <div className=" w-full text-center">
               <h1 className="font-poppins w-full  text-8xl lg:text-[150px] opacity-10">
                 Welcome
               </h1>
-              <h1 className="font-thin -mt-10 lg:-mt-16  text-gray-500 text-4xl">
+              <h1 className="font-extralight -mt-10 lg:-mt-14 text-[#10377a]  text-3xl">
                 WONDERFUL HOTEL IN THE HEART OF POKHARA.
               </h1>
             </div>

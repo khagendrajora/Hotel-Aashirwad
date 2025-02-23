@@ -45,11 +45,14 @@ export const Navbar = () => {
   return (
     <>
       <div className="relative overflow-hidden">
-        <div className="flex justify-between bg-white w-full z-50 absolute ">
-          <div className=" rounded-xl lg:w-1/6">
-            <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[100px]" />
+        <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-5 fixed ">
+          <div className="flex  items-center gap-1 lg:w-1/6">
+            <img src="/logo.jpeg" alt="logo" className="w-[50px] h-[50px]" />
+            <h1 className="text-[#10377a] font-medium lg:text-3xl">
+              Hotel Aashirwad
+            </h1>
           </div>
-          <div className="flex items-center w-full lg:justify-between justify-end mr-10">
+          <div className="flex items-center  lg:justify-between justify-end ">
             <div className="lg:hidden">
               <FontAwesomeIcon
                 icon={faBars}
@@ -58,7 +61,7 @@ export const Navbar = () => {
                 className="cursor-pointer hover:bg-[#10377a] hover:text-white border p-3 text-gray-500 rounded "
               />
             </div>
-            <ul className="lg:flex hidden  text-2xl font-serif list-none text-gray-500 gap-10  ">
+            <ul className="lg:flex hidden  text-xl font-serif list-none text-blue-950 gap-8">
               <li className="hover:text-black transition duration-500 cursor-pointer">
                 Home
               </li>
@@ -79,38 +82,9 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="hidden lg:block px-5 transition duration-500   p-2 justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-2xl">
+          <button className="hidden rounded-md lg:block px-5 transition duration-500 p-2 justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-2xl">
             Reservation
           </button>
-        </div>
-
-        <div
-          ref={menuRef}
-          className={`absolute z-50 top-0 left-0 h-full min-w-[200px] w-1/5 bg-[#10377a] 
-    transition-all  duration-400 ease-linear 
-    ${isMenu ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
-  `}
-        >
-          <ul className="w-full p-10 text-2xl bg-[#10377a] font-serif list-none text-gray-500 flex flex-col gap-7  ">
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              Home
-            </li>
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              About
-            </li>
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              Features
-            </li>
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              Services
-            </li>
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              Review
-            </li>
-            <li className="hover:text-black transition duration-500 cursor-pointer">
-              Contact
-            </li>
-          </ul>
         </div>
 
         <div className="slider-container w-full  ">
@@ -120,7 +94,7 @@ export const Navbar = () => {
                 <img
                   src={image.src}
                   alt="image"
-                  className="h-screen w-screen  object-cover"
+                  className="h-screen w-screen bg-fixed object-cover"
                 />
                 <div className="absolute top-1/2 w-full">
                   <h1 className=" font-poppins text-white text-6xl text-center w-full">
@@ -134,6 +108,35 @@ export const Navbar = () => {
             ))}
           </Slider>
         </div>
+      </div>
+
+      <div
+        ref={menuRef}
+        className={`absolute z-50 top-0 left-0 h-screen min-w-[200px] w-1/5 bg-[#10377a] 
+    transition-all  duration-400 ease-linear 
+    ${isMenu ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
+  `}
+      >
+        <ul className="w-full p-10 text-2xl bg-[#10377a] font-serif list-none text-gray-500 flex flex-col gap-7  ">
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            Home
+          </li>
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            About
+          </li>
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            Features
+          </li>
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            Services
+          </li>
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            Review
+          </li>
+          <li className="hover:text-black transition duration-500 cursor-pointer">
+            Contact
+          </li>
+        </ul>
       </div>
     </>
   );
