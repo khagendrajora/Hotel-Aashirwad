@@ -19,11 +19,19 @@ export const Navbar = () => {
     slidesToScroll: 1,
   };
   const images = [
-    { src: "/Dashboard/cable_car.jpg", alt: "Hero Image 2" },
-    { src: "/Dashboard/cablecar.jpg", alt: "Hero Image 2" },
-    { src: "/Dashboard/hotel_view.jpg", alt: "Hero Image 2" },
-    { src: "/Dashboard/mountain_range.jpg", alt: "Hero Image 2" },
-    { src: "/Dashboard/Paragliding_pokhara.jpg", alt: "Hero Image 2" },
+    {
+      src: "/Dashboard/hotel_view.jpg",
+      alt: "Hero Image 2",
+      text: "Peaceful Environment",
+    },
+    { src: "/room.jpg", alt: "Hero Image 2", text: "Finest Rooms" },
+    // { src: "/Dashboard/cable_car.jpg", alt: "Hero Image 2" },
+
+    {
+      src: "/Dashboard/mountain_range.jpg",
+      alt: "Hero Image 2",
+      text: "Eye Catching View",
+    },
   ];
 
   useEffect(() => {
@@ -46,8 +54,8 @@ export const Navbar = () => {
     <>
       <div className="relative overflow-hidden">
         <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-5 fixed ">
-          <div className="flex  items-center gap-1 lg:w-1/6">
-            <img src="/logo.jpeg" alt="logo" className="w-[50px] h-[50px]" />
+          <div className="flex  items-center gap-1 lg:w-1/5">
+            <img src="/logo.jpeg" alt="logo" className="w-[60px] h-[60px]" />
             <h1 className="text-[#10377a] font-medium lg:text-3xl">
               Hotel Aashirwad
             </h1>
@@ -97,10 +105,10 @@ export const Navbar = () => {
                   className="h-screen w-screen bg-fixed object-cover"
                 />
                 <div className="absolute top-1/2 w-full">
-                  <h1 className=" font-poppins text-white text-6xl text-center w-full">
-                    Finest Rooms
+                  <h1 className=" font-poppins text-white text-8xl text-center w-full">
+                    {image.text}
                   </h1>
-                  <button className="flex mx-auto px-4 p-2 font-light cursor-pointer hover:bg-black transition duration-800  mt-3 text-white bg-[#10377a]">
+                  <button className="flex mx-auto  p-4 font-mono cursor-pointer hover:bg-black transition duration-800 text-4xl  text-white bg-[#10377a]">
                     Find More
                   </button>
                 </div>

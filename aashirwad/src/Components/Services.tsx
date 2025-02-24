@@ -1,4 +1,9 @@
-import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBed,
+  faChampagneGlasses,
+  faLightbulb,
+  faUtensils,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
@@ -63,9 +68,9 @@ export const Services = () => {
               >
                 <div>
                   <FontAwesomeIcon
-                    icon={faLightbulb}
+                    icon={faUtensils}
                     size="xl"
-                    className="text-orange-400 "
+                    className="text-orange-400"
                   />
                 </div>
                 <div className="text-start  flex flex-col gap-2">
@@ -94,7 +99,7 @@ export const Services = () => {
               >
                 <div>
                   <FontAwesomeIcon
-                    icon={faLightbulb}
+                    icon={faChampagneGlasses}
                     size="xl"
                     className="text-orange-400"
                   />
@@ -125,7 +130,7 @@ export const Services = () => {
               >
                 <div>
                   <FontAwesomeIcon
-                    icon={faLightbulb}
+                    icon={faBed}
                     size="xl"
                     className="text-orange-400"
                   />

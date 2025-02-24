@@ -50,7 +50,9 @@ export const Rooms = () => {
                     </div>
                     <div className="flex justify-between mt-auto w-11/12 font-poppins text-orange-500 text-2xl items-baseline">
                       <div>100/Night</div>
-                      <button className="cursor-pointer">View More</button>
+                      <button className="cursor-pointer hover:text-black duration-1000">
+                        View More
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -79,7 +81,9 @@ export const Rooms = () => {
                     </div>
                     <div className="flex justify-between mt-auto w-11/12 font-poppins text-orange-500 text-2xl items-baseline">
                       <div>100/Night</div>
-                      <button className="cursor-pointer">View More</button>
+                      <button className="cursor-pointer hover:text-black duration-1000">
+                        View More
+                      </button>
                     </div>
                   </div>
                 </div>
