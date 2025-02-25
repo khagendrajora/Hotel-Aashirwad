@@ -53,7 +53,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="relative overflow-hidden">
-        <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-5 fixed ">
+        <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-2 fixed ">
           <div className="flex  items-center gap-1 lg:w-1/5">
             <img src="/logo.jpeg" alt="logo" className="w-[60px] h-[60px]" />
             <h1 className="text-[#10377a] font-medium lg:text-3xl">
@@ -90,7 +90,7 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="hidden rounded-md lg:block px-5 transition duration-500 p-2 justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-2xl">
+          <button className="hidden rounded-md lg:block px-5 py-3 h-fit mt-2 transition duration-500  justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-2xl">
             Reservation
           </button>
         </div>
@@ -105,12 +105,12 @@ export const Navbar = () => {
                   className="h-screen w-screen bg-fixed object-cover"
                 />
                 <div className="absolute top-1/2 w-full">
-                  <h1 className=" font-poppins text-white text-8xl text-center w-full">
+                  {/* <h1 className=" font-poppins text-white text-8xl text-center w-full">
                     {image.text}
                   </h1>
                   <button className="flex mx-auto  p-4 font-mono cursor-pointer hover:bg-black transition duration-800 text-4xl  text-white bg-[#10377a]">
                     Find More
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
@@ -144,6 +144,9 @@ export const Navbar = () => {
           <li className="hover:text-black transition duration-500 cursor-pointer">
             Contact
           </li>
+          <button className="hover:text-black transition duration-500 cursor-pointer">
+            Reservation
+          </button>
         </ul>
       </div>
     </>
