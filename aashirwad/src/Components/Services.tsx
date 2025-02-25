@@ -11,7 +11,7 @@ export const Services = () => {
   const [service, setService] = useState<string>("resturant");
   return (
     <>
-      <div className="bg-white lg:py-20 py-10">
+      <div className="bg-white lg:pb-20 pb-10">
         {/* <div className="bg-[url('/bgimage.jpg')] absolute inset-0 bg-cover opacity-15 z-0 "></div> */}
         <div className="flex flex-col justify-center w-full text-center gap-6">
           <div className=" w-full text-center">
@@ -28,7 +28,7 @@ export const Services = () => {
             blanditiis sit, mollitia ad et quidem modi laborum voluptates saepe
           </p>
 
-          <div className="flex flex-wrap justify-center md:w-3/4 bg-[#cbdddd] md:p-15  p-3 gap-6 mx-auto">
+          <div className="flex flex-wrap justify-center md:w-11/12 2xl:w-3/4 bg-neutral-100 md:p-15  p-3 gap-6 mx-auto">
             <div className="lg:w-1/2 flex">
               {service === "resturant" ? (
                 <img

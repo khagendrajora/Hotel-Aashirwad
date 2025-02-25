@@ -9,13 +9,13 @@ export const GallaryTwo = () => {
                 Features and Anemities
               </h1>
 
-              <h1 className="xl:text-5xl text-3xl tracking-[0.2rem] w-full text-red-900 font-carm font-medium ">
+              <h1 className="xl:text-4xl text-3xl tracking-[0.2rem] w-full text-red-900 font-carm font-medium ">
                 Our hotel offers an amazing top view of Annapurna and Fewa Lake.
               </h1>
-              <div className="flex lg:p-10 justify-center lg:justify-end">
+              <div className="flex lg:p justify-center lg:justify-end">
                 <img
                   src="/fewa.jpg "
-                  className=" w-[400px] h-[300px] lg:h-[400px]  xl:h-[500px] object-cover "
+                  className=" w-[430px] h-[300px] lg:h-[400px]  xl:h-[500px] object-cover "
                 />
               </div>
             </div>
@@ -30,10 +30,10 @@ export const GallaryTwo = () => {
                 {" "}
                 <img
                   src="/bar.jpg"
-                  className="w-[600px] lg:h-[400px] xl:h-[500px] object-cover "
+                  className="w-[600px] lg:h-[380px] xl:h-[460px] object-cover "
                 />
               </div>
-              <p className="xl:text-2xl hidden lg:block">
+              <p className="xl:text-xl  hidden lg:block">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
                 error obcaecati ab, voluptas, natus suscipit exercitationem
                 nihil repudiandae mollitia distinctio minus iure rem eos,

@@ -37,7 +37,7 @@ export const Testimonials = () => {
   };
   return (
     <>
-      <div className="bg-[#ddeded] py-16">
+      <div className="bg-neutral-100 py-10">
         <div className="flex mx-auto text-center md:w-1/2 lg:w-1/3 w-full">
           <div className="flex flex-col gap-5">
             <div className=" w-full text-center">
@@ -57,7 +57,7 @@ export const Testimonials = () => {
           </div>
         </div>
 
-        <div className="slider-container w-full font-carm overflow-hidden px-10 py-20 ">
+        <div className="slider-container w-full font-carm overflow-hidden px-10 py-10 ">
           <Slider {...settings}>
             <div className="flex flex-col text-center space-y-5 p-2 md:p-10 hover:bg-white md:shadow-md">
               <div className="w-full flex justify-center">

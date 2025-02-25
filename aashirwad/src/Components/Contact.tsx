@@ -9,15 +9,15 @@ export const Contact = () => {
   return (
     <>
       <div className="lg:py-20 py-10 flex justify-center">
-        <div className="flex flex-wrap justify-between lg:justify-center w-2/3">
-          <div className="flex w-full md:w-1/2  items-center flex-col">
-            <h1 className="text-4xl text-[#10377a] font-semibold tracking-[0.1rem] font-carm">
+        <div className="flex flex-wrap justify-between lg:w-11/12 lg:justify-center w-2/3">
+          <div className="flex w-full md:w-full lg:w-1/2 items-center flex-col">
+            <h1 className="text-4xl text-start w-full text-[#10377a] font-semibold tracking-[0.1rem] font-carm">
               Contact Us
             </h1>
             <div className="py-5 w-full px-2">
               <form className="flex w-full flex-col items-start text-gray-500 gap-10">
-                <div className="flex flex-wrap justify-between w-full gap-5">
-                  <div className="flex flex-col w-full md:w-2/5 gap-2">
+                <div className="flex flex-wrap justify-start w-full gap-2 ">
+                  <div className="flex flex-col w-full md:w-1/2 gap-2">
                     <label>Name</label>
                     <input
                       type="text"
@@ -34,8 +34,8 @@ export const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-wrap justify-between w-full gap-5 ">
-                  <div className="flex flex-col w-full md:w-2/5 gap-2">
+                <div className="flex flex-wrap justify-start w-full gap-2 ">
+                  <div className="flex flex-col w-full md:w-1/2 gap-2">
                     <label>Email</label>
                     <input
                       type="email"
@@ -52,7 +52,7 @@ export const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col w-full gap-2">
+                <div className="flex flex-col w-full md:w-11/12 gap-2">
                   <label>Mesage</label>
                   <textarea
                     placeholder="Your Message.."
@@ -67,7 +67,7 @@ export const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="flex flex-col md:w-1/3 items-center w-full">
+          <div className="flex flex-col md:w-1/3 py-5 items-start w-full">
             <h1 className="text-4xl text-[#10377a] font-semibold tracking-[0.1rem] font-carm">
               GET IN TOUCH
             </h1>

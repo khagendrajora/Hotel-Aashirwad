@@ -12,7 +12,7 @@ export const Rooms = () => {
   };
   return (
     <>
-      <div className="bg-[#ecf3f3] h-fit lg:py-20 py-5">
+      <div className="bg-neutral-100 h-fit lg:py-10 py-5">
         {/* <div className="bg-[url('/bgimage.jpg')] absolute inset-0 bg-cover opacity-20 "></div> */}
         <div>
           <div className=" w-full text-center">
