@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[#10377a] font-carm tracking-[0.1rem] p-10 text-white">
+      <div className="w-full bg-[#10377a] font-playfair  p-10 text-white">
         <div className="flex flex-wrap lg:p-10 justify-between  mx-auto gap-20 lg:w-3/4">
           <div className="flex flex-col">
             <div className="">

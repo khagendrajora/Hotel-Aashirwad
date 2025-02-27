@@ -11,24 +11,23 @@ export const Services = () => {
   const [service, setService] = useState<string>("resturant");
   return (
     <>
-      <div className="bg-white lg:pb-20 pb-10">
-        {/* <div className="bg-[url('/bgimage.jpg')] absolute inset-0 bg-cover opacity-15 z-0 "></div> */}
+      <div className="bg-white lg:pb-20 pb-10 font-playfair">
         <div className="flex flex-col justify-center w-full text-center gap-6">
           <div className=" w-full text-center">
             <h1 className="font-poppins w-full lg:text-8xl text-5xl opacity-10">
               SERVICES
             </h1>
-            <h1 className=" font-carm tracking-[0.2rem] font-medium -mt-6 text-[#10377a] lg:text-4xl">
+            <h1 className="  font-medium -mt-6 text-[#10377a] lg:text-4xl">
               OUR AWESOME SERVICES
             </h1>
           </div>
 
-          <p className="flex justify-center text-xl mx-auto md:w-1/2 pb-10 text-gray-500 px-2 font-carm tracking-[0.1rem]">
+          <p className="flex justify-center text-xl mx-auto md:w-1/2 pb-10 text-gray-500 px-2 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             blanditiis sit, mollitia ad et quidem modi laborum voluptates saepe
           </p>
 
-          <div className="flex flex-wrap justify-center md:w-11/12 2xl:w-3/4 bg-neutral-100 md:p-15  p-3 gap-6 mx-auto">
+          <div className="flex flex-wrap font-playfair justify-center md:w-11/12 2xl:w-3/4 bg-neutral-100 md:p-15  p-3 gap-6 mx-auto">
             <div className="lg:w-1/2 flex">
               {service === "resturant" ? (
                 <img
@@ -58,7 +57,7 @@ export const Services = () => {
                 ""
               )}
             </div>
-            <div className="flex flex-col font-carm tracking-[0.1rem] lg:w-2/5 h-full lg:space-y-8  space-y-5 ">
+            <div className="flex flex-col  lg:w-2/5 h-full lg:space-y-8  space-y-5 ">
               <div
                 className={`flex items-center gap-5  hover:bg-[#10377a] group p-2 md:py-5 cursor-pointer ${
                   service === "resturant"

@@ -12,18 +12,17 @@ export const Rooms = () => {
   };
   return (
     <>
-      <div className="bg-neutral-100 h-fit lg:py-10 py-5">
-        {/* <div className="bg-[url('/bgimage.jpg')] absolute inset-0 bg-cover opacity-20 "></div> */}
+      <div className="bg-[#f5f5f5] font-playfair h-fit lg:py-10 py-5">
         <div>
           <div className=" w-full text-center">
             <h1 className="font-poppins w-full  text-8xl lg:text-[150px] opacity-10">
               Luxury{" "}
             </h1>
-            <h1 className="font-medium -mt-10 lg:-mt-16  font-carm tracking-[0.2rem] text-[#10377a] text-6xl">
+            <h1 className="font-medium -mt-10 lg:-mt-16   text-[#10377a] text-6xl">
               Rooms
             </h1>
           </div>
-          <div className="slider-container w-full  font-carm overflow-hidden lg:pt-20 pt-10 p-3  ">
+          <div className="slider-container w-full overflow-hidden lg:pt-20 pt-10 p-3  ">
             <Slider {...settings}>
               <div>
                 <div className="flex w-full lg:w-3/4 flex-wrap flex-col md:flex-row  mx-auto">
@@ -38,11 +37,9 @@ export const Rooms = () => {
                     <div className="flex flex-col gap-10">
                       <div className="flex flex-col gap-2">
                         <h1 className="text-5xl">Luxury Single Room</h1>
-                        <p className="text-gray-500 tracking-[0.1rem]">
-                          A quality room you want
-                        </p>
+                        <p className="text-gray-500">A quality room you want</p>
                       </div>
-                      <p className=" text-lg text-gray-500">
+                      <p className=" text-lg  text-gray-500">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Quia reprehenderit dolorem laudantium, id
                         officiis, veritatis possimus minus natus dolores
@@ -60,7 +57,7 @@ export const Rooms = () => {
                 </div>
               </div>
               <div>
-                <div className="flex w-full lg:w-3/4 flex-wrap flex-col md:flex-row font-carm mx-auto">
+                <div className="flex w-full lg:w-3/4 flex-wrap flex-col md:flex-row mx-auto">
                   <div className="w-full md:w-1/2">
                     <img
                       src="/GOVL1878.JPG"
@@ -72,11 +69,11 @@ export const Rooms = () => {
                     <div className="flex flex-col gap-10">
                       <div className="flex flex-col gap-2">
                         <h1 className="text-5xl ">Double Room</h1>
-                        <p className="text-gray-500 tracking-[0.1rem]">
+                        <p className="text-gray-500 ">
                           A quality room you want
                         </p>
                       </div>
-                      <p className="tracking-[0.1rem] text-lg text-gray-500">
+                      <p className=" text-lg text-gray-500">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Quia reprehenderit dolorem laudantium, id
                         officiis, veritatis possimus minus natus dolores

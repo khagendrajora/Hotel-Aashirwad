@@ -8,10 +8,10 @@ import {
 export const Contact = () => {
   return (
     <>
-      <div className="lg:py-20 py-10 flex justify-center">
+      <div className="lg:py-20 py-10 flex justify-center font-playfair">
         <div className="flex flex-wrap justify-between lg:w-11/12 lg:justify-center w-2/3">
           <div className="flex w-full md:w-full lg:w-1/2 items-center flex-col">
-            <h1 className="text-4xl text-start w-full text-[#10377a] font-semibold tracking-[0.1rem] font-carm">
+            <h1 className="text-4xl text-start w-full text-[#10377a] font-semibold">
               Contact Us
             </h1>
             <div className="py-5 w-full px-2">
@@ -67,8 +67,8 @@ export const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="flex flex-col md:w-1/3 py-5 items-start w-full">
-            <h1 className="text-4xl text-[#10377a] font-semibold tracking-[0.1rem] font-carm">
+          <div className="flex flex-col md:w-1/3 py-5 items-center font-playfair w-full">
+            <h1 className="text-4xl text-[#10377a] font-semibold ">
               GET IN TOUCH
             </h1>
             <div className="flex pt-10 gap-5 flex-col">

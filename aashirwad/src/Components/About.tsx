@@ -1,19 +1,19 @@
 export const About = () => {
   return (
     <>
-      <div className="bg-[#ecf3f3] md:py-20 relative py-10">
+      <div className="bg-[#ecf3f3] md:py-20 font-playfair relative py-10">
         <div className="bg-[url('/bgimage.jpg')] absolute inset-0 bg-cover opacity-20 "></div>
         <div className="mx-auto relative w-11/12">
           <div className="flex flex-wrap justify-center ">
             <div className="flex flex-col w-full gap-3  md:gap-5 md:w-1/2">
-              <span className="text-gray-500 font-carm text-xl">
+              <span className="text-gray-500  text-xl">
                 {" "}
                 WELCOME TO AASHIRWAD{" "}
               </span>
-              <h1 className="text-3xl font-carm md:text-6xl text-[#10377a] font-bold">
+              <h1 className="text-3xl  md:text-6xl text-[#10377a] font-bold">
                 Feel Like Home
               </h1>
-              <p className="text-gray-500 md:py-5 font-carm lg:leading-10 text-justify lg:text-[23px] text-lg md:w-3/4">
+              <p className="text-gray-500 md:py-5 text-justify lg:text-[23px] text-lg md:w-3/4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
                 tempora sed temporibus ex consequuntur aspernatur magni, vel
                 molestias, fugit facilis consectetur repellendus ullam? Facilis
