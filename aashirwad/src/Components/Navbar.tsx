@@ -27,20 +27,20 @@ export const Navbar = () => {
   return (
     <>
       <div className=" overflow-hidden font-playfair ">
-        <div className="flex lg:justify-center justify-between gap-10 w-full  p-2 absolute items-center z-100 ">
+        <div className="flex lg:justify-center justify-between lg:gap-10 w-full  p-2 absolute items-center z-100 ">
           <div className="flex  items-center gap-1 lg:w-1/5">
             <img src="/Icons/logo.jpeg" alt="logo" className="w-[100px]" />
           </div>
-          <div className="flex items-center lg:justify-between justify-end ">
+          <div className="flex w-full lg:w-fit items-center lg:justify-between justify-end ">
             <div className="lg:hidden">
               <FontAwesomeIcon
                 icon={faBars}
                 size="2xl"
                 onClick={() => setIsMenu(!isMenu)}
-                className="cursor-pointer hover:bg-[#10377a] hover:text-white border p-3 text-gray-500 rounded "
+                className="cursor-pointer bg-[#10377a] text-white border  p-5 rounded "
               />
             </div>
-            <ul className="lg:flex  hidden items-center h-fit text-2xl list-none font-bold text-white gap-8">
+            <ul className="lg:flex hidden items-center h-fit w-fit text-2xl list-none font-bold text-white gap-8">
               <li className="hover:text-black transition duration-500 cursor-pointer">
                 <Link to="/"> Home</Link>
               </li>
@@ -63,7 +63,7 @@ export const Navbar = () => {
             </ul>
           </div>
           <div className="flex item-center ">
-            <button className="hidden rounded-md items-center lg:block px-3 py-2 h-fit mt-2 transition duration-500  justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-xl">
+            <button className="hidden rounded-md items-center lg:block p-4 h-fit mt-2 transition duration-500  justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-xl">
               <Link to="/reservationform">Reservation</Link>
             </button>
           </div>
@@ -72,7 +72,7 @@ export const Navbar = () => {
 
       <div
         ref={menuRef}
-        className={`absolute z-50 top-0 left-0 h-screen min-w-[200px] w-1/5 bg-[#10377a] 
+        className={`absolute z-100 top-0 left-0 h-screen min-w-[200px] w-1/5 bg-[#10377a] 
     transition-all  duration-400 ease-linear 
     ${isMenu ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"}
   `}

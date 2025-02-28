@@ -19,13 +19,13 @@ export const Gallary = () => {
 
         <div className="flex justify-center w-11/12 mx-auto ">
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL1878.JPG" className="h-[300px] object-cover" />
+            <img src="/GOVL1878.JPG" className="sm:h-[300px] object-cover" />
           </div>
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL2047.JPG" className="h-[300px] object-cover" />
+            <img src="/GOVL2047.JPG" className="sm:h-[300px] object-cover" />
           </div>
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL2052.JPG" className="h-[300px] object-cover" />
+            <img src="/GOVL2052.JPG" className="sm:h-[300px] object-cover" />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ export const About = () => {
                 WELCOME TO AASHIRWAD{" "}
               </span>
               <h1 className="text-3xl  md:text-6xl text-[#10377a] font-bold">
-                Feel Like Home
+                About Aashirwad
               </h1>
               <p className="text-gray-500 md:py-5 text-justify lg:text-[23px] text-lg md:w-3/4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
