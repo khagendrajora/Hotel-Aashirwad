@@ -61,7 +61,11 @@ export const Testimonials = () => {
           <Slider {...settings}>
             <div className="flex flex-col text-center space-y-5 p-2 md:p-10 hover:bg-white md:shadow-md">
               <div className="w-full flex justify-center">
-                <img src="/logo.jpeg" alt="" className="w-10 rounded-full" />
+                <img
+                  src="Icons/logo.jpeg"
+                  alt=""
+                  className="w-10 rounded-full"
+                />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-gray-500 text-xl">
@@ -78,7 +82,11 @@ export const Testimonials = () => {
             </div>
             <div className="flex flex-col text-center space-y-5 p-2 md:p-10 hover:bg-white md:shadow-md">
               <div className="w-full flex justify-center">
-                <img src="/logo.jpeg" alt="" className="w-10 rounded-full" />
+                <img
+                  src="Icons/logo.jpeg"
+                  alt=""
+                  className="w-10 rounded-full"
+                />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-gray-500 text-xl">
@@ -95,7 +103,11 @@ export const Testimonials = () => {
             </div>
             <div className="flex flex-col text-center space-y-5 p-2 md:p-10 hover:bg-white md:shadow-md">
               <div className="w-full flex justify-center">
-                <img src="/logo.jpeg" alt="" className="w-10 rounded-full" />
+                <img
+                  src="Icons/logo.jpeg"
+                  alt=""
+                  className="w-10 rounded-full"
+                />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-gray-500 text-xl">
@@ -112,7 +124,11 @@ export const Testimonials = () => {
             </div>
             <div className="flex flex-col text-center space-y-5 p-2 md:p-10 hover:bg-white md:shadow-md">
               <div className="w-full flex justify-center">
-                <img src="/logo.jpeg" alt="" className="w-10 rounded-full" />
+                <img
+                  src="Icons/logo.jpeg"
+                  alt=""
+                  className="w-10 rounded-full"
+                />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-gray-500 text-xl">

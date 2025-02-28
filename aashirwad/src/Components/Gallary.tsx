@@ -8,11 +8,11 @@ export const Gallary = () => {
         <div className="w-full items-center  mx-auto lg:py-10  font-medium tracking-[0.2rem] text-[#10377a] lg:text-4xl">
           <div className="flex flex-row items-center justify-center py-5 gap-2 lg:gap-5">
             <div className=" flex py-3 justify-center">
-              <img src="/Adobe Express - file.png" className="w-[80px]" />
+              <img src="/Icons/Adobe Express - file.png" className="w-[80px]" />
             </div>
             <h1 className="font-bold">WHAT&nbsp;WE&nbsp;HAVE</h1>
             <div className=" flex py-3 justify-center">
-              <img src="/Adobe Express - file.png" className="w-[80px]" />
+              <img src="/Icons/Adobe Express - file.png" className="w-[80px]" />
             </div>
           </div>
         </div>

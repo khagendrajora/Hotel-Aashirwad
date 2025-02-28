@@ -29,7 +29,11 @@ export const Navbar = () => {
       <div className="relative overflow-hidden font-playfair">
         <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-2 fixed ">
           <div className="flex  items-center gap-1 lg:w-1/5">
-            <img src="/logo.jpeg" alt="logo" className="w-[60px] h-[60px]" />
+            <img
+              src="/Icons/logo.jpeg"
+              alt="logo"
+              className="w-[60px] h-[60px]"
+            />
             <h1 className="text-[#10377a] font-medium lg:text-3xl">
               Hotel Aashirwad
             </h1>

@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="flex flex-wrap lg:p-10 justify-between  mx-auto gap-20 lg:w-3/4">
           <div className="flex flex-col">
             <div className="">
-              <img src="/logo.jpeg" className="w-32" />
+              <img src="Icons/logo.jpeg" className="w-32" />
             </div>
             <div className="flex flex-col gap-4">
               <p className="flex ">

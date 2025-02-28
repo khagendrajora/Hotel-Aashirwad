@@ -37,7 +37,7 @@ export const Rooms = () => {
           >
             <div className="overflow-hidden ">
               <img
-                src="/room.jpg"
+                src="/9.jpg"
                 alt=""
                 className="object-cover hover:scale-110 duration-1000"
               />
@@ -50,7 +50,7 @@ export const Rooms = () => {
           <div className="flex flex-col w-2/5 cursor-pointer">
             <div className="overflow-hidden">
               <img
-                src="/room.jpg"
+                src="/GOVL1846.jpg"
                 alt=""
                 className="object-cover hover:scale-110 duration-1000"
               />
@@ -63,7 +63,7 @@ export const Rooms = () => {
           <div className="flex flex-col w-2/5 cursor-pointer">
             <div className="overflow-hidden">
               <img
-                src="/room.jpg"
+                src="/GOVL1872.jpg"
                 alt=""
                 className="object-cover hover:scale-110 duration-1000"
               />
@@ -76,7 +76,7 @@ export const Rooms = () => {
           <div className="flex flex-col w-2/5 cursor-pointer">
             <div className="overflow-hidden">
               <img
-                src="/room.jpg"
+                src="/9.jpg"
                 alt=""
                 className="object-cover hover:scale-110 duration-1000"
               />
