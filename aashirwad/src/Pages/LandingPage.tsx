@@ -10,7 +10,7 @@ import { Hero } from "../Components/Hero";
 export const LandingPage = () => {
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <Hero />
         <About />
         <Gallary />

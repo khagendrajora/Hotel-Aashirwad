@@ -26,7 +26,7 @@ export const About = () => {
             </div>
             <div className="md:w-1/3 relative flex py-10">
               <div className="hidden md:flex absolute top-1/4 -left-1/5 flex-col gap-10 items-center justify-center">
-                <img
+                {/* <img
                   src="/9.jpg"
                   className="w-[200px] hover:scale-125 duration-1000"
                 />
@@ -37,16 +37,16 @@ export const About = () => {
                 <img
                   src="/hotel.jpg"
                   className="w-[200px] hover:scale-125 duration-1000"
-                />
+                /> */}
               </div>
               <div className="h-full">
                 <img
                   src="/Dashboard/hotel_view.jpg"
-                  className="object-cover h-[700px] w-[600px]"
+                  className="object-cover h-[500px] "
                 />
               </div>
               <div className="flex md:hidden absolute top-1/6 right-1 flex-col gap-10 items-center justify-center">
-                <img
+                {/* <img
                   src="/room.jpg"
                   className="w-[150px] hover:scale-125 duration-1000"
                 />
@@ -57,7 +57,7 @@ export const About = () => {
                 <img
                   src="/hotel.jpg"
                   className="w-[150px] hover:scale-125 duration-1000"
-                />
+                /> */}
               </div>
             </div>
           </div>

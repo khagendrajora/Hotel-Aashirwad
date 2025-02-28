@@ -19,13 +19,13 @@ export const Gallary = () => {
 
         <div className="flex justify-center w-11/12 mx-auto ">
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL1878.JPG" />
+            <img src="/GOVL1878.JPG" className="h-[300px] object-cover" />
           </div>
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL2047.JPG" />
+            <img src="/GOVL2047.JPG" className="h-[300px] object-cover" />
           </div>
           <div className="lg:w-1/4 w-1/3">
-            <img src="/GOVL2052.JPG" />
+            <img src="/GOVL2052.JPG" className="h-[300px] object-cover" />
           </div>
         </div>
       </div>
@@ -33,17 +33,20 @@ export const Gallary = () => {
         <div className="text-center text-[#10377a] flex flex-col items-center gap-5">
           <div className="flex flex-row items-center gap-2  lg:gap-5">
             <div className=" flex py-3 justify-center">
-              <img src="/Adobe Express - file.png" className="w-[80px]" />
+              <img
+                src="/Icons/Adobe Express - file.png"
+                className="w-[80px] "
+              />
             </div>
             <h1 className="font-medium font-playfair text-xl">
               More Ways To Stay
             </h1>
             <div className=" flex py-3 justify-center">
-              <img src="/Adobe Express - file.png" className="w-[80px]" />
+              <img src="/Icons/Adobe Express - file.png" className="w-[80px]" />
             </div>
           </div>
           <p className="font-bold lg:text-3xl font-playfair">
-            YOUR ACCOMMODATION OPTIONS
+            WHAT WE PROVIDE TO OUR CUSTOMERS
           </p>
           <div className="flex justify-center font-playfair flex-wrap text-black gap-10 lg:py-15">
             <div className="flex flex-col gap-2 hover:bg-neutral-100 p-2 lg:p-4 hover:scale-105 duration-700 lg:w-1/5">

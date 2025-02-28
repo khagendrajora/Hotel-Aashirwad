@@ -26,19 +26,12 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="relative overflow-hidden font-playfair">
-        <div className="flex lg:justify-center justify-between gap-10 bg-white w-full z-50 p-2 fixed ">
+      <div className=" overflow-hidden font-playfair ">
+        <div className="flex lg:justify-center justify-between gap-10 w-full  p-2 absolute items-center z-100 ">
           <div className="flex  items-center gap-1 lg:w-1/5">
-            <img
-              src="/Icons/logo.jpeg"
-              alt="logo"
-              className="w-[60px] h-[60px]"
-            />
-            <h1 className="text-[#10377a] font-medium lg:text-3xl">
-              Hotel Aashirwad
-            </h1>
+            <img src="/Icons/logo.jpeg" alt="logo" className="w-[100px]" />
           </div>
-          <div className="flex items-center  lg:justify-between justify-end ">
+          <div className="flex items-center lg:justify-between justify-end ">
             <div className="lg:hidden">
               <FontAwesomeIcon
                 icon={faBars}
@@ -47,7 +40,7 @@ export const Navbar = () => {
                 className="cursor-pointer hover:bg-[#10377a] hover:text-white border p-3 text-gray-500 rounded "
               />
             </div>
-            <ul className="lg:flex hidden  text-xl list-none text-blue-950 gap-8">
+            <ul className="lg:flex  hidden items-center h-fit text-2xl list-none font-bold text-white gap-8">
               <li className="hover:text-black transition duration-500 cursor-pointer">
                 <Link to="/"> Home</Link>
               </li>
@@ -57,9 +50,7 @@ export const Navbar = () => {
               <li className="hover:text-black transition duration-500 cursor-pointer">
                 <Link to="/aboutus">About</Link>
               </li>
-              {/* <li className="hover:text-black transition duration-500 cursor-pointer">
-                Features
-              </li> */}
+
               <li className="hover:text-black transition duration-500 cursor-pointer">
                 Services
               </li>
@@ -71,9 +62,11 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="hidden rounded-md lg:block px-5 py-3 h-fit mt-2 transition duration-500  justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-2xl">
-            <Link to="/reservationform">Reservation</Link>
-          </button>
+          <div className="flex item-center ">
+            <button className="hidden rounded-md items-center lg:block px-3 py-2 h-fit mt-2 transition duration-500  justify-between hover:bg-black hover:text-white   bg-[#10377a]  cursor-pointer text-white  text-xl">
+              <Link to="/reservationform">Reservation</Link>
+            </button>
+          </div>
         </div>
       </div>
 

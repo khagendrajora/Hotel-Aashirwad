@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const AboutPage = () => {
   return (
     <>
-      <div className="bg-[#eeeeee]">
+      <div className="bg-[#eeeeee] ">
         <div className="relative">
           <img
             src="/room.jpg"
@@ -52,7 +52,29 @@ export const AboutPage = () => {
           </div>
         </div>
 
-        <div className="text-center font-playfair w-10/12 mx-auto">
+        <div className="relative h-[300px] w-11/12 mx-auto ">
+          <div className="bg-[url(/hotel_main_entrance.jpg)] inset-0 absolute bg-fixed opacity-65"></div>
+          <div className="flex flex-wrap h-full mx-auto w-11/12 text-center text-[#10377a] text-3xl font-bold font-playfair justify-between items-center">
+            <div className="bg-white rounded-full py-7 px-8 z-50">
+              <h1>30</h1>
+              <p className="text-sm">Rooms</p>
+            </div>
+            <div className="bg-white rounded-full py-7 px-8 z-50">
+              <h1>30</h1>
+              <p className="text-sm">Rooms</p>
+            </div>
+            <div className="bg-white rounded-full py-7 px-8 z-50">
+              <h1>30</h1>
+              <p className="text-sm">Rooms</p>
+            </div>
+            <div className="bg-white rounded-full py-7 px-8 z-50">
+              <h1>30</h1>
+              <p className="text-sm">Rooms</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center  font-playfair w-10/12 mx-auto pt-20">
           <h1 className="text-xl "> OUR FEATURES</h1>
           <h1 className="text-4xl tracking-[0.3rem] py-3 ">Why Choose Us</h1>
           <p className="py-4">
@@ -62,7 +84,7 @@ export const AboutPage = () => {
             Adipisci consectetur magni quam? Autem, eveniet fuga.
           </p>
         </div>
-        <div className="flex w-3/4 mx-auto flex-wrap font-playfair  py-14 justify-center">
+        <div className="flex w-3/4 mx-auto flex-wrap  font-playfair  py-14 justify-center">
           <div className="w-1/3">
             <img src="/room.jpg" alt="rooms" className=" object-cover" />
           </div>

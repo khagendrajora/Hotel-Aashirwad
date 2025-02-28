@@ -27,7 +27,7 @@ export const Hero = () => {
   ];
   return (
     <>
-      <div className="slider-container w-full ">
+      <div className="slider-container w-full z-10 ">
         <Slider {...settings}>
           {images.map((image, i) => (
             <div key={i} className="relative">
